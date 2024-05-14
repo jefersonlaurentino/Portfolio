@@ -46,7 +46,7 @@ const APIprojetos = async () =>{
     try {
         const url = await fetch('./src/js/projetos.json');
         const resposta = await url.json();
-        projetos(resposta);
+        setTimeout(projetos(resposta),500);
     } catch (error) {
         console.log(error);
     }
@@ -67,7 +67,8 @@ const projetos = async(projetos) =>{
 
         // utilizei if para concluded caso esteja trabalhando no projeto mais não finalizado.
         if (projetos[i].concluded) {
-
+            card.querySelector('.tela_pc').style = `background-image: url(${projetos[i].img_pc})`;
+            card.querySelector('.tela_celular').style = `background-image: url(${projetos[i].img_cel})`;
         } else {
             card.querySelector('.tela_pc').style = "background-image: url(./src/img/pc-embreve.jpg)";
             card.querySelector('.tela_celular').style ="background-image: url(./src/img/cl-embreve.jpg)";
