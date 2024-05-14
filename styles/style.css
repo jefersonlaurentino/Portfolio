@@ -15,10 +15,6 @@
         @apply blur-lg -translate-x-full duration-100;
     }
 
-    .offAnimacao:nth-child(even) {
-        @apply blur-lg translate-x-full duration-100 hidden;
-    }
-
     .onAnimacao {
         @apply blur-0 translate-x-0 duration-[1.2s];
     }
