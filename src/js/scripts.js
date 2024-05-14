@@ -12,7 +12,7 @@ const animationElements = () =>{
 }
 
 // utilizei o setTimeout porque os cards dos projetos são dinamicos e os cards não da tempo de receber a class 'offAnimacao'
-setTimeout(animationElements,500);
+setTimeout(animationElements,1500);
 
 
 // 
@@ -46,7 +46,7 @@ const APIprojetos = async () =>{
     try {
         const url = await fetch('./src/js/projetos.json');
         const resposta = await url.json();
-        setTimeout(projetos(resposta),500);
+        setTimeout(projetos(resposta),1000);
     } catch (error) {
         console.log(error);
     }
