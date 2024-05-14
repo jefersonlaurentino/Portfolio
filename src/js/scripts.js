@@ -12,7 +12,7 @@ const animationElements = () =>{
 }
 
 // utilizei o setTimeout porque os cards dos projetos são dinamicos e os cards não da tempo de receber a class 'offAnimacao'
-setTimeout(animationElements,100);
+setTimeout(animationElements,500);
 
 
 // 
