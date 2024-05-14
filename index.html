@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Jeferson Laurentino</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/output.css">
+</head>
+<body class="bg-[#f1f1f1] overflow-x-hidden">
+    <header class="p-2 fixed top-0 w-full border-b border-black shadow-xl shadow-black/20 flex justify-between sm:px-20 backdrop-blur-md z-50 text-white max-sm:flex max-sm:justify-center font-bold">
+        <div class="max-sm:hidden">
+            <p><span class="font-bold">Jeferson</span> Laurentino</p>
+        </div>
+        <ul class="flex gap-3 items-center justify-center">
+            <li class="overflow-hidden"><a href="#sobre" class="link_animado">Sobre</a></li>
+            <li class="overflow-hidden"><a href="#projetos" class="link_animado">Projetos</a></li>
+            <li class="overflow-hidden"><a href="mailto:jefersonlaurentino@outlook.com.br" class="contato rounded-xl link_animado">Contato</a></li>
+        </ul>
+    </header>
+    <main>
+        <a href="#home" id="arrow" class="fixed w-9 h-9 border border-white bg-black text-white flex justify-center items-center rounded-full right-5 bottom-5 z-50 duration-300 opacity-0"><i class="fa-solid fa-arrow-up"></i></a>
+
+        <div id="home" class="h-screen bg-black text-white shadow-2xl shadow-black max-sm:flex max-sm:justify-center max-sm:items-center sm:flex sm:items-center sm:px-28">
+            <section>
+                <div class="p-4 ">
+                    <span class="text-xl sm:text-4xl">Olá, eu sou</span>
+                    <h1 class="text-2xl font-bold sm:text-5xl  my-2 sm:my-5"><spam class="text-azulCiano">Jeferson</spam> Laurentino</h1>
+                    <span class="font-semibold text-xl sm:text-4xl">Desenvolvedor front-end</span>
+                    <div class="my-3">
+                        <button id="cv" class="py-2 px-4 text-2xl font-bold border border-azulCiano my-3 relative rounded-md z-10 duration-300 after:content-[''] after:h-full after:w-full after:absolute after:bg-azulCiano after:-left-full after:top-0 hover:after:left-0 hover:scale-110 hover:text-black after:duration-300 after:-z-10 overflow-hidden">Download CV</button>
+                        <div class="flex gap-5 mt-3">
+                            <a href="https://github.com/jefersonlaurentino" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github text-2xl sm:text-4xl duration-300 hover:text-azulCiano hover:scale-110"></i></a>
+                            <a href="https://www.linkedin.com/in/jeferson-laurentino-dev" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin text-2xl sm:text-4xl duration-300 hover:text-azulCiano hover:scale-110"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/3 absolute right-0 bottom-0">
+                    <img src="./src/img/Eu.png" alt="" class="max-sm:hidden">
+                    <div class="absolute h-full w-full bg-black/50 bottom-0 right-0"></div>
+                </div>
+                <div class="absolute bottom-6 left-1/2 animate-bounce"><i class="fa-solid fa-arrow-down text-xl"></i></div>
+            </section>
+        </div>
+        <div id="sobre" class="pt-10 px-5 max-w-5xl m-auto">
+            <section class="offAnimacao bg-white border-2 rounded-md shadow-md p-3 my-10 sm:py-6">
+                <h2 class="underline decoration-azulCiano mb-3 text-xl font-semibold sm:text-2xl">Sobre me</h2>
+                <div class="sm:hidden flex justify-center ">
+                    <img src="./src/img/Eu.png" class="w-1/2 rounded-full overflow-hidden" alt="">
+                </div>
+                <p class="px-4 mt-2 indent-5 sm:text-xl relative before:content-[''] before:absolute before:w-[2px] before:h-full before:bg-azulCiano before:left-1">Minha jornada profissional começou no mundo da mecânica, onde atuei como mecânico autônomo por 3 anos. Atualmente, estou estudando para me tornar um desenvolvedor front-end. Estudo de forma autodidata a mais de 1 ano e Participo do programa de capacitação da <a href="https://www.oracle.com/br" target="_blank" rel="noopener noreferrer" class="underline decoration-azulCiano font-semibold">Oracle</a>, O <a href="https://www.oracle.com/br/education/oracle-next-education" target="_blank" rel="noopener noreferrer" class="underline decoration-azulCiano font-semibold">"Oracle ONE"</a> que inclui cursos desenvolvidos em colaboração com a <a href="https://www.alura.com.br/" target="_blank" rel="noopener noreferrer" class="underline decoration-azulCiano font-semibold">Alura</a>.
+                </p>
+            </section>
+            
+            <div class="offAnimacao linguagens text-center border rounded-md bg-white shadow-md py-3 my-14 sm:py-6">
+                <h2 class="underline decoration-azulCiano mb-3 text-xl font-semibold sm:text-2xl">Skills</h2>
+                <div class="add flex gap-4 flex-wrap m-auto">
+                    <div class="lingue flex flex-col items-center justify-center flex-grow hidden">
+                        <img src="" alt="" class="w-14 h-14">
+                        <h3></h3>
+                    </div>
+                </div>
+            </div>
+            <div id="projetos" class="my-10 pt-10 p-4 rounded-md shadow-md border bg-white">
+                <h2 class="underline decoration-azulCiano font-bold text-2xl  sm:text-3xl">Projetos</h2>
+                <div id="projetos" class="sm:flex sm:flex-col">
+                    <div class="projeto p-4 my-7 bg-white text-black rounded-lg border-2 shadow-lg hidden">
+                        <div class="flex justify-between">
+                            <h3 class="title sm:text-2xl underline decoration-azulCiano font-semibold"></h3>
+                            <div class="linguagens flex"></div>
+                        </div>
+                        <div class="sm:flex sm:items-center max-sm:relative max-sm:pb-12">
+                            <div>
+                                <p class="description indent-4 max-sm:mt-3  sm:text-xl"></p>
+                                <div class="btn flex justify-center gap-6 font-semibold sm:mt-5 max-sm:absolute max-sm:bottom-0 max-sm:w-full">
+                                    <a href="" class="block bt-1 p-2 relative text-center rounded-xl shadow-md border w-1/3 text-xl bg-transparent z-0 before:content-[''] before:absolute before:bg-azulCiano before:h-full before:w-full before:top-0 before:right-full before:rounded-xl before:duration-300 before:-z-10 hover:before:right-0 hover:text-white hover:scale-110 duration-300 overflow-hidden">Deploy</a>
+                                    <a href="" class="block bt-2 p-2 relative text-center rounded-xl shadow-md border w-1/3 text-xl bg-transparent z-0 before:content-[''] before:absolute before:bg-azulCiano before:h-full before:w-full before:top-0 before:right-full before:rounded-xl before:duration-300 before:-z-10 hover:before:right-0 hover:text-white hover:scale-110 duration-300 overflow-hidden">Github</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="projeto__img relative h-52 w-72 overflow-hidden">
+                                    <div class="tela_pc absolute bg-image top-[20px] left-[53px] h-[101px] w-[163px] font-bold flex justify-center items-center text-center overflow-hidden"></div>
+                                    <img src="./src/img/tela_pc.png" alt="" class="absolute z-10 -top-16 w-full">
+                                    <div class="tela_celular bg-image absolute z-20 top-[90px] left-[206px] h-[108px] w-[51px] rounded-md"></div>
+                                    <img src="./src/img/tela_celular.png" alt="" class="absolute z-30 -top-10 w-full]">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="p-6 bg-[#00010D] text-white flex flex-col items-center gap-3">
+        <div class="flex items-center justify-center flex-wrap gap-7">
+            <div class="contatos flex flex-col gap-2">
+                <h4 class="underline decoration-azulCiano text-xl">contatos</h4>
+                <a href="mailto:jefersonlaurentino@outlook.com.br"
+                class="relative pr-5 before:content-[''] before:absolute before:h-[2px] before:w-full before:bottom-0 before:right-full before:bg-azulCiano before:duration-300 hover:before:right-1/4 overflow-hidden"
+                ><i class="fa-solid fa-envelope"></i> E-mail</a>
+                <a href="https://www.linkedin.com/in/jeferson-laurentino-dev"
+                class="relative pr-5 before:content-[''] before:absolute before:h-[2px] before:w-full before:bottom-0 before:right-full before:bg-azulCiano before:duration-300 hover:before:right-1/4 overflow-hidden"
+                ><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+            </div>
+        </div>
+        <div>
+            
+            <p>&copy;Criado por Jeferson Laurentino. <span>Icons by <a href="https://icons8.com" target="_blank" rel="noopener noreferrer" class="underline decoration-azulCiano font-semibold">Icons8.com</a></span></p>
+        </div>
+    </footer>
+    <script type="module" src="./src/js/scripts.js"></script>
+</body>
+</html>

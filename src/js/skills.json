@@ -1,0 +1,30 @@
+[
+    {
+        "titulo": "HTML",
+        "img": "./src/img/skills/icons8-html-48.png"
+    },
+    {
+        "titulo": "CSS",
+        "img": "./src/img/skills/icons8-css-48.png"
+    },
+    {
+        "titulo": "JAVASCRIPT",
+        "img": "./src/img/skills/icons8-javascript-48.png"
+    },
+    {
+        "titulo": "REACT",
+        "img": "./src/img/skills/icons8-react.svg"
+    },
+    {
+        "titulo": "TAILWIND",
+        "img": "./src/img/skills/icons8-tailwind-css-48.png"
+    },
+    {
+        "titulo": "GIT",
+        "img": "./src/img/skills/icons8-git-48.png"
+    },
+    {
+        "titulo": "GITHUB",
+        "img": "./src/img/skills/icons8-github.svg"
+    }
+]

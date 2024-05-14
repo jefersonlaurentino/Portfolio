@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Site Delivery Pizzaria",
+        "description": "O site foi criado para atender as cidades do interior aonde não tem apps de deliverys, contendo todas as informações das pizzas, carrinho e um formulário para endereço de entrega. E não obtêm informações dos usuários. o site foi criado para melhorar a experiência dos usuários e a velocidade na entrega.",
+        "concluded": false,
+        "linguagens": ["html","tailwind","javascript"],
+        "img_pc": "bg-[url('../src/img/telas-projetos/tela.png')]", 
+        "img_cel": "",
+        "deploy": "",
+        "github": ""
+    },
+    {
+        "title": "Clima",
+        "description": "O site de clima pega as informações da sua localização ou o nome da cidade escolhida. através de uma API coletando as informações e mostrando na tela de forma intuitiva.",
+        "concluded": false,
+        "linguagens": ["react","tailwind","javascript","git","css"],
+        "img_pc": "",
+        "img_cel": "",
+        "deploy": "",
+        "github": ""
+    }
+]
