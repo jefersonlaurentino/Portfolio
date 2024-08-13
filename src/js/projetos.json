@@ -10,13 +10,13 @@
         "github": ""
     },
     {
-        "title": "Clima",
-        "description": "O site de clima pega as informações da sua localização ou o nome da cidade escolhida. através de uma API coletando as informações e mostrando na tela de forma intuitiva.",
-        "concluded": false,
-        "linguagens": ["react","tailwind","javascript","css"],
-        "img_pc": "",
-        "img_cel": "",
-        "deploy": "",
-        "github": ""
+        "title": "Site clima",
+        "description": "Desenvolvi um site de clima utilizando React, que marcou meu primeiro contato com esta biblioteca. O projeto é uma aplicação web interativa que fornece informações meteorológicas.  A interface é projetada para ser intuitiva e responsiva, garantindo uma experiência de usuário fluida em diferentes dispositivos.",
+        "concluded": true,
+        "linguagens": ["react","tailwind","javascript"],
+        "img_pc": "src/img/telas-projetos/site_clima/pc.png",
+        "img_cel": "src/img/telas-projetos/site_clima/phone.png",
+        "deploy": "https://clima-jeferson-laurentinos-projects.vercel.app/",
+        "github": "https://github.com/jefersonlaurentino/clima"
     }
 ]
