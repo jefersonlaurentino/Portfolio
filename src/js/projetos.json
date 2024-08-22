@@ -2,12 +2,12 @@
     {
         "title": "Site Delivery Pizzaria",
         "description": "O site foi criado para atender as cidades do interior aonde não tem apps de deliverys, contendo todas as informações das pizzas, carrinho e um formulário para endereço de entrega. E não obtêm informações dos usuários. o site foi criado para melhorar a experiência dos usuários e a velocidade na entrega.",
-        "concluded": false,
+        "concluded": true,
         "linguagens": ["html","tailwind","javascript"],
-        "img_pc": "", 
-        "img_cel": "",
-        "deploy": "",
-        "github": ""
+        "img_pc": "src/img/telas-projetos/site_delivery/pc.png", 
+        "img_cel": "src/img/telas-projetos/site_delivery/phone.png",
+        "deploy": "https://jefersonlaurentino.github.io/site_delivery",
+        "github": "https://github.com/jefersonlaurentino/site_delivery"
     },
     {
         "title": "Site clima",
@@ -16,7 +16,17 @@
         "linguagens": ["react","tailwind","javascript"],
         "img_pc": "src/img/telas-projetos/site_clima/pc.png",
         "img_cel": "src/img/telas-projetos/site_clima/phone.png",
-        "deploy": "https://clima-jeferson-laurentinos-projects.vercel.app/",
+        "deploy": "https://clima-jeferson-laurentinos-projects.vercel.app",
         "github": "https://github.com/jefersonlaurentino/clima"
+    },
+    {
+        "title": "sem projeto",
+        "description": "Exemplo de como fica o card do projeto em desenvolvimento.",
+        "concluded": false,
+        "linguagens": ["html","css","javascript"],
+        "img_pc": "",
+        "img_cel": "",
+        "deploy": "",
+        "github": ""
     }
 ]
