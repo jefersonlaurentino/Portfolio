@@ -27,43 +27,34 @@ async function skills() {
     }
 }
 
+skills()
+
 // add skill no site
-const linguagensConhecimento = async (skill) =>{
-    const teste = await skill;
-    for (let i = 0; i < teste.length; i++) {
-        tituloLianguagens.push(teste[i].titulo);
-        arraylinguagens.push(teste[i]);
+const linguagensConhecimento = (skill) =>{
+    const linguagens = skill;
+    for (let i = 0; i < linguagens.length; i++) {
+        tituloLianguagens.push(linguagens[i].titulo);
+        arraylinguagens.push(linguagens[i]);
         let linguagen = document.querySelector('.lingue').cloneNode(true);
         linguagen.classList.remove('hidden');
-        linguagen.querySelector('h3').innerHTML = teste[i].titulo;
-        linguagen.querySelector('img').src = teste[i].img;
+        linguagen.querySelector('h3').innerHTML = linguagens[i].titulo;
+        linguagen.querySelector('img').src = linguagens[i].img;
         addLingue.appendChild(linguagen);
     }
 }
 
-// 
-const APIprojetos = async () =>{
-    try {
-        const url = await fetch('./src/js/projetos.json');
-        const resposta = await url.json();
-        setTimeout(projetos(resposta),1000);
-    } catch (error) {
-        console.log(error);
-    }
-}
-
 // add projetos no site
-const projetos = async(projetos) =>{
-    const Projeto = await projetos;
+const projetos = (projetos) =>{
+    const Projeto = projetos;
     for (let i = 0; i < Projeto.length; i++) {
         const card = document.querySelector('.projeto').cloneNode(true);
         card.classList.remove('hidden');
         card.classList.add('offAnimacao');
         card.querySelector('.title').innerHTML = projetos[i].title;
         card.querySelector('.description').innerHTML = projetos[i].description;
-        card.querySelector('.linguagens').innerHTML = linguagensUtilizadas(projetos[i].linguagens);
         card.querySelector('.btn .bt-1').href = projetos[i].deploy;
         card.querySelector('.btn .bt-2').href = projetos[i].github;
+        card.querySelector('.linguagens').innerHTML = linguagensUtilizadas(projetos[i].linguagens);
 
         // utilizei if para concluded caso esteja trabalhando no projeto mais não finalizado.
         if (projetos[i].concluded) {
@@ -101,7 +92,16 @@ document.addEventListener('scroll', () =>{
     (scroll >= 500) ? document.querySelector('#arrow').classList.remove('opacity-0') : document.querySelector('#arrow').classList.add('opacity-0');
 })
 
-document.querySelector('#cv').addEventListener('click',()=>alertMsg());
+const APIprojetos = async () =>{
+    try {
+        const url = await fetch('./src/js/projetos.json');
+        const resposta = await url.json();
+        setTimeout(projetos(resposta),1000);
+    } catch (error) {
+        console.log(error);
+    }
+}
 
-skills()
 APIprojetos()
+
+document.querySelector('#cv').addEventListener('click',()=>alertMsg());

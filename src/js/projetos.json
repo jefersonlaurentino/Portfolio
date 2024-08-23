@@ -20,10 +20,10 @@
         "github": "https://github.com/jefersonlaurentino/clima"
     },
     {
-        "title": "sem projeto",
-        "description": "Exemplo de como fica o card do projeto em desenvolvimento.",
+        "title": "Tela de login com verificação",
+        "description": "Este é meu primeiro projeto utilizando TypeScript. Desenvolvi uma interface de login que verifica se o usuário já possui uma conta e, caso contrário, permite o cadastro de novos usuários.",
         "concluded": false,
-        "linguagens": ["html","css","javascript"],
+        "linguagens": ["react","tailwind"],
         "img_pc": "",
         "img_cel": "",
         "deploy": "",
