@@ -87,8 +87,7 @@ const linguagensUtilizadas = (linguagens) =>{
 
 document.addEventListener('scroll', () =>{
     let scroll = window.scrollY;
-    (scroll <= 730)? document.querySelector('header').classList.add('text-white') : document.querySelector('header').classList.remove('text-white');
-    (scroll < 732)? document.querySelector('header').classList.add('text-white') : document.querySelector('header').classList.remove('text-white');
+    (scroll <= 550)? document.querySelector('header').classList.add('text-white') : document.querySelector('header').classList.remove('text-white');
     (scroll >= 500) ? document.querySelector('#arrow').classList.remove('opacity-0') : document.querySelector('#arrow').classList.add('opacity-0');
 })
 
