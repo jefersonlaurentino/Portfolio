@@ -96,12 +96,12 @@ const APIprojetos = async () =>{
     try {
         const url = await fetch('./src/js/projetos.json');
         const resposta = await url.json();
-        setTimeout(projetos(resposta),1000);
+        projetos(resposta)
     } catch (error) {
         console.log(error);
     }
 }
 
-APIprojetos()
+setTimeout(()=>APIprojetos(),1000)
 
 document.querySelector('#cv').addEventListener('click',()=>alertMsg());
