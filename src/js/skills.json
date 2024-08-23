@@ -12,6 +12,10 @@
         "img": "./src/img/skills/icons8-javascript-48.png"
     },
     {
+        "titulo": "TYPESCRIPT",
+        "img": "./src/img/skills/typescript.svg"
+    },
+    {
         "titulo": "REACT",
         "img": "./src/img/skills/icons8-react.svg"
     },

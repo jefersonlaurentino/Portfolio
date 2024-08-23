@@ -23,7 +23,7 @@
         "title": "Tela de login com verificação",
         "description": "Este é meu primeiro projeto utilizando TypeScript. Desenvolvi uma interface de login que verifica se o usuário já possui uma conta e, caso contrário, permite o cadastro de novos usuários.",
         "concluded": false,
-        "linguagens": ["react","tailwind"],
+        "linguagens": ["react","tailwind","typescript"],
         "img_pc": "",
         "img_cel": "",
         "deploy": "",
