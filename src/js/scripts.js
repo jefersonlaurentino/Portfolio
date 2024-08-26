@@ -1,5 +1,4 @@
 import animationScroll from "./animacao.js"
-import alertMsg from "./alert.js"
 
 const addLingue = document.querySelector('.linguagens .add');
 let tituloLianguagens=[];
@@ -102,5 +101,3 @@ const APIprojetos = async () =>{
 }
 
 setTimeout(()=>APIprojetos(),1000)
-
-document.querySelector('#cv').addEventListener('click',()=>alertMsg());
