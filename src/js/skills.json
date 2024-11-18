@@ -13,14 +13,14 @@
     },
     {
         "titulo": "TYPESCRIPT",
-        "img": "./src/img/skills/typescript.svg"
+        "img": "./src/img/skills/icons8-typescript.svg"
     },
     {
         "titulo": "REACT",
         "img": "./src/img/skills/icons8-react.svg"
     },
     {
-        "titulo": "TAILWIND",
+        "titulo": "TAILWIND-CSS",
         "img": "./src/img/skills/icons8-tailwind-css-48.png"
     },
     {
@@ -30,5 +30,13 @@
     {
         "titulo": "GITHUB",
         "img": "./src/img/skills/icons8-github.svg"
+    },
+    {
+        "titulo": "NEXT.JS",
+        "img": "./src/img/skills/icons8-nextjs.svg"
+    },
+    {
+        "titulo": "MYSQL",
+        "img": "./src/img/skills/icons8-mysql.svg"
     }
 ]

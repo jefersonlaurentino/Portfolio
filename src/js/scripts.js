@@ -13,8 +13,6 @@ const animationElements = () =>{
 // utilizei o setTimeout porque os cards dos projetos são dinamicos e os cards não da tempo de receber a class 'offAnimacao'
 setTimeout(animationElements,1500);
 
-
-// 
 async function skills() {
     try {
         const resposta = await fetch("./src/js/skills.json");
@@ -22,7 +20,7 @@ async function skills() {
         linguagensConhecimento(json);
     }
     catch (error) {
-        console.log(error);
+        console.error(error);
     }
 }
 

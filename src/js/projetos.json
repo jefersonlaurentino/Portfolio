@@ -1,9 +1,29 @@
 [
     {
+        "title": "RetroStation",
+        "description": "O RetroStation é um site de compra de jogos do PlayStation 2 para PC, projetado para resgatar a nostalgia dos jogos que marcaram gerações. Desenvolvido com Next.js, TypeScript e Tailwind CSS, foi meu primeiro contato com o Next.js e typeScript, tornando-o um desafio trabalhoso, mas extremamente gratificante. O projeto contem cadastro/login, validação de idade, carrinho de compras, perfil personalizável, carrossel de jogos em destaques, barra de busca e o modo dark-mode. Esse projeto mostra todo o meu conhecimento que adquirido como desenvolvedor.",
+        "concluded": true,
+        "linguagens": ["react","tailwind-css","typescript","next.js"],
+        "img_pc": "src/img/telas-projetos/site_retrostation/pc.png",
+        "img_cel": "src/img/telas-projetos/site_retrostation/phone.png",
+        "deploy": "https://retrostation.vercel.app/",
+        "github": "https://github.com/jefersonlaurentino/retrostation"
+    },
+    {
+        "title": "Portfólio",
+        "description": "Estou desenvolvendo um novo portfólio, já que o atual está desatualizado e não reflete completamente meus conhecimentos e as tecnologias que venho utilizando. Este novo projeto será feito com Next.js, typeScript, taiwind css. como estou estudando banco de dados, há uma grande chance deste ser o meu primeiro projeto a receber o banco de dados.",
+        "concluded": false,
+        "linguagens": ["tailwind-css","typescript","next.js"],
+        "img_pc": "",
+        "img_cel": "",
+        "deploy": "https://retrostation.vercel.app/",
+        "github": ""
+    },
+    {
         "title": "Site Delivery Pizzaria",
         "description": "O site foi criado para atender as cidades do interior aonde não tem apps de deliverys, contendo todas as informações das pizzas, carrinho e um formulário para endereço de entrega. E não obtêm informações dos usuários. o site foi criado para melhorar a experiência dos usuários e a velocidade na entrega.",
         "concluded": true,
-        "linguagens": ["html","tailwind","javascript"],
+        "linguagens": ["html","tailwind-css","javascript"],
         "img_pc": "src/img/telas-projetos/site_delivery/pc.png", 
         "img_cel": "src/img/telas-projetos/site_delivery/phone.png",
         "deploy": "https://jefersonlaurentino.github.io/site_delivery",
@@ -13,20 +33,10 @@
         "title": "Site clima",
         "description": "Desenvolvi um site de clima utilizando React, que marcou meu primeiro contato com esta biblioteca. O projeto é uma aplicação web interativa que fornece informações meteorológicas.  A interface é projetada para ser intuitiva e responsiva, garantindo uma experiência de usuário fluida em diferentes dispositivos.",
         "concluded": true,
-        "linguagens": ["react","tailwind","javascript"],
+        "linguagens": ["react","tailwind-css","javascript"],
         "img_pc": "src/img/telas-projetos/site_clima/pc.png",
         "img_cel": "src/img/telas-projetos/site_clima/phone.png",
         "deploy": "https://clima-jeferson-laurentinos-projects.vercel.app",
         "github": "https://github.com/jefersonlaurentino/clima"
-    },
-    {
-        "title": "Tela de login com verificação",
-        "description": "Este é meu primeiro projeto utilizando TypeScript. Desenvolvi uma interface de login que verifica se o usuário já possui uma conta e, caso contrário, permite o cadastro de novos usuários.",
-        "concluded": false,
-        "linguagens": ["react","tailwind","typescript"],
-        "img_pc": "",
-        "img_cel": "",
-        "deploy": "",
-        "github": ""
     }
 ]
