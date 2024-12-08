@@ -1,7 +1,7 @@
 [
     {
         "title": "RetroStation",
-        "description": "O RetroStation é um site de compra de jogos do PlayStation 2 para PC, projetado para resgatar a nostalgia dos jogos que marcaram gerações. Desenvolvido com Next.js, TypeScript e Tailwind CSS, foi meu primeiro contato com o Next.js e typeScript, tornando-o um desafio trabalhoso, mas extremamente gratificante. O projeto contem cadastro/login, validação de idade, carrinho de compras, perfil personalizável, carrossel de jogos em destaques, barra de busca e o modo dark-mode. Esse projeto mostra todo o meu conhecimento que adquirido como desenvolvedor.",
+        "description": "O RetroStation é um site de compra de jogos do PlayStation 2 para PC, projetado para resgatar a nostalgia dos jogos que marcaram gerações. Desenvolvido com Next.js, TypeScript e Tailwind CSS, foi meu primeiro contato com o Next.js e typeScript, tornando-o um desafio trabalhoso, mas extremamente gratificante. O projeto contém cadastro/login, validação de idade, carrinho de compras, perfil personalizável, carrossel de jogos em destaque, barra de busca e o modo dark-mode. Esse projeto mostra todo o conhecimento que adquiri como desenvolvedor.",
         "concluded": true,
         "linguagens": ["react","tailwind-css","typescript","next.js"],
         "img_pc": "src/img/telas-projetos/site_retrostation/pc.png",
@@ -11,7 +11,7 @@
     },
     {
         "title": "Portfólio",
-        "description": "Estou desenvolvendo um novo portfólio, já que o atual está desatualizado e não reflete completamente meus conhecimentos e as tecnologias que venho utilizando. Este novo projeto será feito com Next.js, typeScript, taiwind css. como estou estudando banco de dados, há uma grande chance deste ser o meu primeiro projeto a receber o banco de dados.",
+        "description": "Estou desenvolvendo um novo portfólio, já que o atual está desatualizado e não reflete completamente meus conhecimentos e as tecnologias que venho utilizando. Este novo projeto será feito com Next.js, TypeScript, Taiwind css. como estou estudando banco de dados, há uma grande chance de este ser o meu primeiro projeto a receber o banco de dados.",
         "concluded": false,
         "linguagens": ["tailwind-css","typescript","next.js"],
         "img_pc": "",
@@ -21,7 +21,7 @@
     },
     {
         "title": "Site Delivery Pizzaria",
-        "description": "O site foi criado para atender as cidades do interior aonde não tem apps de deliverys, contendo todas as informações das pizzas, carrinho e um formulário para endereço de entrega. E não obtêm informações dos usuários. o site foi criado para melhorar a experiência dos usuários e a velocidade na entrega.",
+        "description": "O site foi criado para atender as cidades do interior onde não há apps de delivery, contendo todas as informações das pizzas, carrinho e um formulário para endereço de entrega. Não obtém informações dos usuários. o site foi criado para melhorar a experiência dos usuários e a velocidade na entrega.",
         "concluded": true,
         "linguagens": ["html","tailwind-css","javascript"],
         "img_pc": "src/img/telas-projetos/site_delivery/pc.png", 
@@ -31,7 +31,7 @@
     },
     {
         "title": "Site clima",
-        "description": "Desenvolvi um site de clima utilizando React, que marcou meu primeiro contato com esta biblioteca. O projeto é uma aplicação web interativa que fornece informações meteorológicas.  A interface é projetada para ser intuitiva e responsiva, garantindo uma experiência de usuário fluida em diferentes dispositivos.",
+        "description": "Desenvolvi um site de clima utilizando React, marcando meu primeiro contato com esta biblioteca. O projeto é uma aplicação web interativa que fornece informações meteorológicas.  A interface é projetada para ser intuitiva e responsiva, garantindo uma experiência fluida para o usuário em diferentes dispositivos.",
         "concluded": true,
         "linguagens": ["react","tailwind-css","javascript"],
         "img_pc": "src/img/telas-projetos/site_clima/pc.png",
